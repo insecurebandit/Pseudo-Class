@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: linear-gradient(to right, white, black);
+}
+
+button {
+    background-color: #2958c6;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    font-family: Ubuntu
+}
+
+button:hover {
+    background-color: #6c06af70;
+}
+
+button:active {
+    font-size: 18px;
+    color: rgb(59, 43, 148);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #390404;
+    font-size: 30px;
+    width: 250px;
+    font-family: Ubuntu;
+}
+
+input[type="text"]:focus {
+    border: 2px solid #dfae27;
+}
+
+input[type="text"]:focus-visible {
+    color: blue;
+}
+
+a {
+    color: #0000EE;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+button, input[type="text"], a {
+    transition: all 0.3s ease;
+    font-family: Ubuntu;
+    display: inline-flex;
+    align-items: center;
+    color: black
+}
+
+button::after {
+    content: '';
+}
+
+input[type="text"]::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Ubuntu;
+}
+
+main {
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 70vh;
+    margin-top: 35vh;
+    display: inline-block;
+    font-size: 50px;
+}
